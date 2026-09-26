@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "training": 1,
+      "pairId": 1,
+      "files": [
+        "audio/t1-p01-i23pbqv0tx.wav",
+        "audio/t1-p01-cza1underp.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 2,
+      "files": [
+        "audio/t1-p02-najdsymug4.wav",
+        "audio/t1-p02-kavcpewprw.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 3,
+      "files": [
+        "audio/t1-p03-y65sy6r633.wav",
+        "audio/t1-p03-s6qhtwhmd5.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 4,
+      "files": [
+        "audio/t1-p04-8xd1agrnzb.wav",
+        "audio/t1-p04-ed582bw2tr.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 5,
+      "files": [
+        "audio/t1-p05-62oxwbt8vw.wav",
+        "audio/t1-p05-7vct9pwf1p.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 6,
+      "files": [
+        "audio/t1-p06-nlbfhtaxne.wav",
+        "audio/t1-p06-6k2o18w2m7.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 8,
+      "files": [
+        "audio/t1-p08-xb69h1msfm.wav",
+        "audio/t1-p08-cbuwt9spsa.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 9,
+      "files": [
+        "audio/t1-p09-rjryus2w6h.wav",
+        "audio/t1-p09-07gjct2kd5.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 10,
+      "files": [
+        "audio/t1-p10-ayjvrbubch.wav",
+        "audio/t1-p10-0yjlanzyk1.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 11,
+      "files": [
+        "audio/t1-p11-941ds8o4zn.wav",
+        "audio/t1-p11-2b9bm6j80h.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 12,
+      "files": [
+        "audio/t1-p12-rv1wcjsmhh.wav",
+        "audio/t1-p12-xjfrswts8m.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 13,
+      "files": [
+        "audio/t1-p13-09hr3no6ku.wav",
+        "audio/t1-p13-82te9nfm9x.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 14,
+      "files": [
+        "audio/t1-p14-9xdotr2s3g.wav",
+        "audio/t1-p14-y335g750cc.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 15,
+      "files": [
+        "audio/t1-p15-q3r6fn6s4s.wav",
+        "audio/t1-p15-j8c9b0jjw5.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 16,
+      "files": [
+        "audio/t1-p16-fc8dxgz1xl.wav",
+        "audio/t1-p16-9m9c45tvjj.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 17,
+      "files": [
+        "audio/t1-p17-a02y1w7z2d.wav",
+        "audio/t1-p17-lrrqjrnx73.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 18,
+      "files": [
+        "audio/t1-p18-wnss7pv6hn.wav",
+        "audio/t1-p18-e9eli3yjer.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 19,
+      "files": [
+        "audio/t1-p19-a2kwghfopn.wav",
+        "audio/t1-p19-p4r192qmwv.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 20,
+      "files": [
+        "audio/t1-p20-c09gw4xla6.wav",
+        "audio/t1-p20-y9gsvhfal7.wav"
+      ]
+    },
+    {
+      "training": 1,
+      "pairId": 21,
+      "files": [
+        "audio/t1-p21-ptl7inrdbz.wav",
+        "audio/t1-p21-rgii38q89j.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 1,
+      "files": [
+        "audio/t2-p01-jkf02okfkv.wav",
+        "audio/t2-p01-ikqgob1yrj.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 2,
+      "files": [
+        "audio/t2-p02-gxp67p1bzc.wav",
+        "audio/t2-p02-8tp9omlx75.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 3,
+      "files": [
+        "audio/t2-p03-1yc8wxdump.wav",
+        "audio/t2-p03-igkjl1ift5.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 4,
+      "files": [
+        "audio/t2-p04-sshp86twog.wav",
+        "audio/t2-p04-nu9qtqj16w.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 5,
+      "files": [
+        "audio/t2-p05-25f6ocw4xx.wav",
+        "audio/t2-p05-cdnfoekx4v.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 6,
+      "files": [
+        "audio/t2-p06-0ksfidw21n.wav",
+        "audio/t2-p06-4x7av3wzii.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 8,
+      "files": [
+        "audio/t2-p08-anoee50g9y.wav",
+        "audio/t2-p08-jr6l1hn7i2.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 9,
+      "files": [
+        "audio/t2-p09-1wwocygglq.wav",
+        "audio/t2-p09-63vhfjo91b.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 10,
+      "files": [
+        "audio/t2-p10-f9uvdvtutm.wav",
+        "audio/t2-p10-3xgz5ps6y0.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 11,
+      "files": [
+        "audio/t2-p11-vftvi6eyzu.wav",
+        "audio/t2-p11-97i988mdvi.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 12,
+      "files": [
+        "audio/t2-p12-ug0cb1xztg.wav",
+        "audio/t2-p12-727dwrrpa2.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 13,
+      "files": [
+        "audio/t2-p13-o8mcwi7pgx.wav",
+        "audio/t2-p13-jde0027xa7.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 14,
+      "files": [
+        "audio/t2-p14-hlgzsj98yb.wav",
+        "audio/t2-p14-glja26t3kb.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 15,
+      "files": [
+        "audio/t2-p15-nz5ghqbxm7.wav",
+        "audio/t2-p15-0osccadikt.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 16,
+      "files": [
+        "audio/t2-p16-lovczgg3hr.wav",
+        "audio/t2-p16-x1xddc56hy.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 17,
+      "files": [
+        "audio/t2-p17-9hja3ijh8u.wav",
+        "audio/t2-p17-mrmjmusj13.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 18,
+      "files": [
+        "audio/t2-p18-3mfrus9r7l.wav",
+        "audio/t2-p18-vpvmp3m9js.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 19,
+      "files": [
+        "audio/t2-p19-ean15mki6n.wav",
+        "audio/t2-p19-e6e4zzyql8.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 20,
+      "files": [
+        "audio/t2-p20-b5obhtt857.wav",
+        "audio/t2-p20-feqmi50ztg.wav"
+      ]
+    },
+    {
+      "training": 2,
+      "pairId": 21,
+      "files": [
+        "audio/t2-p21-u4x7j3tnxc.wav",
+        "audio/t2-p21-b9bl52l6cx.wav"
+      ]
+    }
+  ]
+}
