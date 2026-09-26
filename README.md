@@ -14,7 +14,7 @@
 
 ## 데이터와 연구자 통계
 
-`/#admin`은 연구자 전용 통계 화면입니다. Supabase Auth 이메일 일회용 링크로 로그인한 뒤, 데이터베이스 RLS 정책에 허용된 연구자 계정만 응답을 볼 수 있습니다. URL 해시만으로는 통계에 접근할 수 없습니다.
+`/#admin`은 연구자 전용 통계 화면입니다. Supabase Auth 이메일+비밀번호로 로그인한 뒤, 데이터베이스 RLS 정책에 허용된 연구자 계정만 응답을 볼 수 있습니다. URL 해시만으로는 통계에 접근할 수 없습니다.
 
 - 완료 참가자 수, 미완료 세션 수, 참가자 단위 전체·훈련별 정확도와 95% 참가자 부트스트랩 구간
 - 훈련 2와 훈련 1의 참가자 내 정확도 차이, 정오답별 평균 확신도, AI 위치별 정답률, A 선택 편향
@@ -28,7 +28,7 @@
 - `schema.sql`을 Supabase SQL Editor에서 실행하고, **공개하지 않는 별도 시드 SQL**로 40개의 실제/AI 경로를 `public.stimuli`에 등록합니다.
 - `app.js`의 Supabase URL 및 publishable key는 공개 가능한 값입니다. 서비스 역할 키나 DB 암호를 이 저장소에 넣지 마세요.
 - `public.stimuli`는 익명·인증 사용자 모두에게 읽기 권한이 없습니다. `submit_trial` RPC가 파일 경로를 검증하고 서버에서 정오답을 계산합니다. `public.responses`는 지정된 연구자 이메일로 인증된 세션만 조회할 수 있습니다.
-- Supabase Auth URL Configuration에서 배포된 GitHub Pages URL을 Site URL 및 Redirect URLs에 추가해야 이메일 로그인 링크가 올바르게 돌아옵니다.
+- 관리자 통계는 Supabase Auth 이메일+비밀번호 로그인을 사용합니다. 연구자 이메일 계정은 Supabase Authentication Users에서 비밀번호가 설정되어 있어야 합니다.
 - GitHub Pages는 `main` 브랜치의 루트(`/`)에서 정적 사이트로 배포합니다. GitHub Pages는 공개 저장소의 오디오 다운로드를 원천적으로 차단할 수 없으므로 음성의 공개 배포 권한을 확인하세요.
 
 ## 개인정보 및 방법론 메모
