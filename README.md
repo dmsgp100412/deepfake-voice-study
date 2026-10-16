@@ -4,21 +4,26 @@
 
 - 본실험 훈련 1+2: https://dmsgp100412.github.io/deepfake-voice-study/
 - 파일럿 훈련 1: https://dmsgp100412.github.io/deepfake-voice-study/#training1
+- 파일럿 훈련 2: https://dmsgp100412.github.io/deepfake-voice-study/#training2
 - 본실험 관리자 통계: https://dmsgp100412.github.io/deepfake-voice-study/#admin
 - 파일럿 훈련 1 통계: https://dmsgp100412.github.io/deepfake-voice-study/#admin-training1
+- 파일럿 훈련 2 통계: https://dmsgp100412.github.io/deepfake-voice-study/#admin-training2
 
 ## 실험 페이지 분리
 
 기본 주소 `/`는 본실험용입니다. 훈련 1과 훈련 2를 모두 진행하며, 총 40개 문항을 제출합니다.
 
-`#training1`은 파일럿용입니다. 훈련 1의 20개 문항만 진행합니다.
+`#training1`은 훈련 1 파일럿용이며 20개 문항을 진행합니다.
+
+`#training2`는 훈련 2 파일럿용이며 20개 문항을 진행합니다.
 
 두 실험은 로컬 저장 키와 Supabase 저장 구분값을 다르게 사용합니다.
 
 - 본실험: `experiment_mode = main`
 - 파일럿 훈련 1: `experiment_mode = pilot_training1`
+- 파일럿 훈련 2: `experiment_mode = pilot_training2`
 
-따라서 파일럿 훈련 1 응답은 본실험 훈련 1+2 관리자 통계에 포함되지 않습니다.
+따라서 훈련 1·2 파일럿 응답은 본실험 관리자 통계나 서로 다른 파일럿 통계에 포함되지 않습니다.
 
 ## 수집 항목
 
@@ -34,7 +39,9 @@
 
 `#admin`은 `experiment_mode = main` 응답만 조회합니다. 40개 문항을 모두 제출한 세션만 완료 참가자 통계에 포함합니다.
 
-`#admin-training1`은 `experiment_mode = pilot_training1` 응답만 조회합니다. 20개 문항을 모두 제출한 세션만 파일럿 통계에 포함합니다.
+`#admin-training1`은 `experiment_mode = pilot_training1` 응답만 조회합니다.
+
+`#admin-training2`는 `experiment_mode = pilot_training2` 응답만 조회합니다. 각 파일럿 통계는 해당 훈련의 20개 문항을 모두 제출한 세션만 포함합니다.
 
 관리자 기능:
 
