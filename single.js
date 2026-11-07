@@ -388,7 +388,17 @@ function renderDone() {
   });
 }
 
-state = loadState();
-if (!state) renderIntro();
-else if (state.index >= TOTAL_TRIALS) renderDone();
-else renderTrial();
+function renderParticipantApp() {
+  state = loadState();
+  if (!state) renderIntro();
+  else if (state.index >= TOTAL_TRIALS) renderDone();
+  else renderTrial();
+}
+
+if (location.hash === '#admin') {
+  app.innerHTML = '<div class="loading">단일음성 관리자 페이지를 준비하고 있습니다…</div>';
+} else {
+  renderParticipantApp();
+}
+
+window.addEventListener('hashchange', () => location.reload());

@@ -78,3 +78,7 @@
 참가자 페이지: https://dmsgp100412.github.io/deepfake-voice-study/single.html
 
 `훈련 1 최종 data`의 실제 음성 20개와 AI 음성 20개를 단일 음성 문항 40개로 제시합니다. 참가자마다 서버에서 순서를 새로 생성하며 Real 20개, AI 20개를 유지하고 같은 정답이 3회 이상 이어지지 않도록 구성합니다. 동일 화자의 Real/AI 파일도 연속해서 나오지 않습니다. 각 음성은 최대 2회까지 재생할 수 있고, 끝까지 청취한 뒤 Real/AI 판단과 1~5점 확신도를 입력합니다. 응답은 별도 `single_responses` 테이블에 저장됩니다.
+
+단일음성 관리자 페이지: https://dmsgp100412.github.io/deepfake-voice-study/single.html#admin
+
+단일음성 관리자 통계는 `single_responses`만 조회하며 완료 남녀 인원, 전체 정확도, Real·AI 판별 정확도, 균형 정확도, 혼동행렬, 확신도별 정확도, 반응시간, 참가자별·문항별 통계를 제공합니다. 응답 및 참가자 정보 편집·삭제와 Excel 다운로드를 지원합니다.
