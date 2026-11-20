@@ -82,3 +82,12 @@
 단일음성 관리자 페이지: https://dmsgp100412.github.io/deepfake-voice-study/single.html#admin
 
 단일음성 관리자 통계는 `single_responses`만 조회하며 완료 남녀 인원, 전체 정확도, Real·AI 판별 정확도, 균형 정확도, 혼동행렬, 확신도별 정확도, 반응시간, 참가자별·문항별 통계를 제공합니다. 응답 및 참가자 정보 편집·삭제와 Excel 다운로드를 지원합니다.
+
+## 훈련 1 단일음성 50·60대 판별 실험
+
+- 참가자 페이지: https://dmsgp100412.github.io/deepfake-voice-study/single-5060.html
+- 관리자 페이지: https://dmsgp100412.github.io/deepfake-voice-study/single-5060.html#admin
+
+20·30대 단일음성 실험과 같은 음성 40개, 무작위 순서, 동일 화자 Real/AI 비연속 제시, 최대 2회 재생, Real/AI 판단, 1~5점 확신도, 마지막 재생 종료 후 첫 판단까지의 반응시간 측정 조건을 사용합니다. 생년월일과 연령대는 50대 또는 60대만 허용합니다.
+
+응답은 `single_responses` 테이블에서 `experiment_mode = single_training1_50_60`으로 저장하며, 기존 20·30대 단일음성 실험의 `single_training1` 응답과 관리자 통계가 서로 섞이지 않습니다.

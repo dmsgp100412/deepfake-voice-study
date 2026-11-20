@@ -112,7 +112,7 @@ async function renderSingleAdmin() {
   try {
     const rows = [];
     for (let start = 0; ; start += 1000) {
-      const { data, error } = await db.from('single_responses').select('*').order('id', { ascending: true }).range(start, start + 999);
+      const { data, error } = await db.from('single_responses').select('*').eq('experiment_mode', 'single_training1').order('id', { ascending: true }).range(start, start + 999);
       if (error) throw error;
       rows.push(...data);
       if (data.length < 1000) break;
