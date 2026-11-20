@@ -209,7 +209,7 @@ function drawSingleDashboard(allRows, email) {
   app.innerHTML = `
     <section class="admin-wrap">
       <div class="admin-head">
-        <div><span class="eyebrow">Single voice research dashboard</span><h1>훈련 1 50·60대 50·60대 단일음성 응답 통계</h1><p>완료 참가자는 단일음성 40문항을 모두 제출한 세션입니다. 20·30대 단일음성 및 기존 A/B 비교실험 응답은 포함되지 않습니다.</p></div>
+        <div><span class="eyebrow">Single voice research dashboard</span><h1>훈련 1 50·60대 단일음성 응답 통계</h1><p>완료 참가자는 단일음성 40문항을 모두 제출한 세션입니다. 20·30대 단일음성 및 기존 A/B 비교실험 응답은 포함되지 않습니다.</p></div>
         <div class="admin-actions"><a class="button secondary small" href="single-5060.html">참가자 페이지</a><button class="button secondary small" id="single-admin-refresh">새로고침</button><button class="button secondary small" id="single-download-xlsx">엑셀 다운로드</button><button class="button secondary small" id="single-admin-signout">로그아웃</button></div>
       </div>
       <div class="metric-grid single-admin-metrics">
